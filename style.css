@@ -14,7 +14,7 @@ body {
 
 .filter-container {
     box-shadow: 5px 5px 8px rgba(0,0,0,0.5);
-    border-radius: 5px;
+    border-radius: 10px;
     width: 300px;
     overflow: hidden;
     background-color: rgb(124, 124, 212);
@@ -25,7 +25,7 @@ body {
     color: #fff;
     padding: 35px 20px;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .filter-sub-heading {
@@ -54,6 +54,8 @@ body {
 .user-list li {
     display: flex;
     padding: 20px;
+    border-bottom: 1px solid rgb(56, 55, 55);
+    cursor: pointer;
 }
 
 .user-list img {
@@ -73,4 +75,8 @@ body {
 
 .user-information p {
     font-size: 14px;
+}
+
+.user-list li.hide {
+    display: none;
 }
