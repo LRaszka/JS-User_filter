@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(44, 44, 44);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-container {
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    width: 300px;
+    overflow: hidden;
+    background-color: rgb(124, 124, 212);
+}
+
+.header {
+    background-color: rgb(45, 45, 241);
+    color: #fff;
+    padding: 35px 20px;
+}
+
+.filter-sub-heading {
+    display: block;
+    margin: 5px 0 20px 0;
+}
+
+.input-filter {
+    background-color: rgba(0,0,0,0.3);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    outline: none;
+}
